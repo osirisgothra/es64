@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "orchid" },
+            { "model": "orchid", "y": 90 },
+            { "model": "orchid", "y": 180 },
+            { "model": "orchid", "y": 270 }
+        ]
+    }
+}
+

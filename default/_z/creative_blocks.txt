@@ -1,0 +1,87 @@
+In creative mode, open chat (t) and type:
+/give <playername> <BlockID> 1 <Metadata>
+
+Example:
+/give Shoeboxam 5 1 4
+Crates appear in Shoeboxam's inventory.
+
+
+-MCPatcher or Optifine required
+-MCPatcher required to see blocks rendered correctly in inventory
+-Soartex is required to see these blocks
+--------------------------------
+
+Block Listing
+BlockID:Metadata Usage
+---------------------------------
+Block ID 5 can burn!
+5:6 Timber Framing Split
+5:7 Timber Framing Cross
+5:8 Plank Paver
+5:9 Unused
+5:10 Hive
+5:11 Paneling Oak
+
+
+24:3 Brick Sandstone
+
+24:4 White planks
+24:5 Orange planks
+24:6 Magenta planks
+24:7 Light blue planks
+24:8 Yellow planks
+24:9 Lime Planks
+24:10 Pink planks
+24:11 Gray Planks
+24:12 Light Gray Planks
+24:13 Cyan planks
+24:14 Purple planks
+24:15 Blue planks
+
+5:12 Brown planks
+5:13 Green planks
+5:14 Red planks
+5:15 Black planks
+
+
+98:4 Brick Flat
+98:5 Brick Green
+98:6 Basalt Paver
+98:7 Brick Shiva
+98:8 Brick Large
+98:9 Sandstone 2x2
+98:10 Ivy Wall
+98:11 Mossy Round
+98:12 Concrete
+98:13 Limestone
+98:14 Stone Paver
+98:15 Rock
+
+
+155:6 Gift
+155:7 Shiny Glowstone
+155:8 Red Tile
+155:9 Blue Tile
+155:10 Iron Sheet
+155:11 Safe
+155:12 Steel
+155:13 Iron Paver
+155:15 Marble
+
+
+
+Walls:
+139:2 Stone
+139:3 Sandstone
+139:4 Stone Brick
+139:5 Clay Brick
+139:6 Quartz
+139:7 Oak Log
+139:8 Snow
+139:9 Obsidian
+139:10 Hardened Clay
+139:11 Blue Wool
+139:12 Brick Green
+139:13 Basalt Paver
+139:14 Iron Block
+139:15 Red Mushroom

@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "dandelion" },
+            { "model": "dandelion", "y": 90 },
+            { "model": "dandelion", "y": 180 },
+            { "model": "dandelion", "y": 270 }
+        ]
+    }
+}
+

@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "houstonia" },
+            { "model": "houstonia", "y": 90 },
+            { "model": "houstonia", "y": 180 },
+            { "model": "houstonia", "y": 270 }
+        ]
+    }
+}
+

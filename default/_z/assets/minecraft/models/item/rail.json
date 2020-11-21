@@ -1,0 +1,40 @@
+{
+	"parent": "block/normal_rail_flat",
+	"display": {
+		"gui": {
+			"rotation": [ 90, 0, 0 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 1, 1, 1 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 3, 0],
+			"scale":[ 0.4, 0.4, 0.4 ]
+		},
+		"fixed": {
+			"rotation": [ -90, 0, 0 ],
+			"translation": [ 0, 0, -7.75],
+			"scale":[ 1, 1, 1 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ -67, 0, 180 ],
+			"translation": [ 0, 0, 5.76],
+			"scale": [ 0.6, 0.6, 0.6 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ -67, 0, 180 ],
+			"translation": [ 0, 0, 5.76],
+			"scale": [ 0.6, 0.6, 0.6 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 67, 0, 76 ],
+			"translation": [ -1.92, 1.92, -0.96 ],
+			"scale": [ 0.8, 0.8, 0.8 ]
+		},
+		"firstperson_lefthand": {
+			"rotation": [ 67, 0, 76 ],
+			"translation": [ -1.92, 1.92, -0.96 ],
+			"scale": [ 0.8, 0.8, 0.8 ]
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "side": "blocks/leaves_jungle/leaves_jungle_5",
+        "bottom": "blocks/leaves_jungle/leaves_jungle_4",
+        "top": "blocks/leaves_jungle"
+    }
+}

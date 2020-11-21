@@ -1,0 +1,9 @@
+{
+    "parent": "block/door_bottom_rh",
+    "textures": {
+        "particle": "blocks/door_wood_lower",
+        "texture": "blocks/door_wood_lower",
+		"frame": "blocks/door/door_wood_top",
+		"west": "blocks/door/oak/lower_flipped"
+    }
+}
