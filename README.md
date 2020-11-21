@@ -1,8 +1,7 @@
 # EarthSeige
 by Gabriel Sharp (Arrangement, Some Textures and Reworks)
 
-<img src="snapshot.png"/>
-<img src="SS.jpeg"/>
+<img src="screenshot.png"/>
 
 ## Contributors
 Toby109tt (Pixel Perfection by Hugh "XSSheep" Rutlan) - Base Textures used as template or as rework.
