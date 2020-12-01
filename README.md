@@ -17,3 +17,4 @@ See the wiki for more up to date information.
 
 ## Licensing
 Creative Commons Attribution-Share Alike 4.0 International License
+(note that licensing only applies to <a href="mailto:osirisgothra@hotmail.com>my</a> work, not others. Those works, fall under their own licenses.
