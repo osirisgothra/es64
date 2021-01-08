@@ -1,1 +1,38 @@
-default/_z
+# please document any fields added (in other words, do not have any unexplained!)
+# dont mind empty lines, they are just there to help you
+
+#.unwanted          used by a variety of apps to signify contents that are unwanted (downloaders such as transmission, default downloader for older ubuntus)
+#*.tmp              used on many operating systems and software for temp files
+#*.swp              used by vim/gvim during edit (also contains the tempfile and recovery info)
+#*~                 used by nano, pine, pico (nano's predecessor), emacs, and others for temporary file and recovery backup
+#*.save             nano's backup copy, also used by other apps for a simmilar purpose
+
+#CACHE.ITS              impulse tracker cache file (samps)
+#CACHE.ITI              impulse tracker cache file (insts)
+#thumbs.db
+#.thumbnails            (previous entry too) used by many window managers and operating systems to store thumbnail info
+#*.mood                 used by players and indexers to store mood data
+
+.unwanted
+*.swp
+*~
+*.save
+
+CACHE.ITS
+CACHE.ITI
+thumbs.db
+.thumbnails
+*.mood
+_z
+# also not publishing...
+# xmp -- gimp thumbnails for editor
+# tgc -- texturemaker color gradient preset(s)
+# virtual -- virtualeditor (alpha) project file(s)
+# filemap -- virtualeditor (alpha) file map(s)
+# usermap -- virtualeditor (alph...ah forget it, well you get the idea!
+*.xmp
+*.tgc
+*.virtual
+*.filemap
+*.usermap
+
