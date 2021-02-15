@@ -6,7 +6,9 @@ by Gabriel Sharp (Arrangement, Some Textures and Reworks)
 ## Contributors
 Toby109tt (Pixel Perfection by Hugh "XSSheep" Rutlan) - Base Textures used as template or as rework.
 The pack has textures inspired by Soartex Modded's templates and were inspired by it.
-(please notify me if you see something thats yours that you want out of the pack, it could be in there by accident)
+
+## Disclaimer
+(please notify me if you see something thats yours that you want out of the pack, it could be in there by accident or by automation, i do use alot of automation tools to import/export/change files around)
 osirisgothra (many of the mod-specific textures)
 
 
