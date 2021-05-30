@@ -41,3 +41,8 @@ fossils:bone_block top fossils_bone_block_top.png
 farming:farming_straw bottom farming_straw_top.png
 farming:farming_straw top farming_straw_top.png
 
+ethereal:sakura_leaves sakuragi_leaves.png
+ethereal:sakura_sapling sakuragi_sapling.png
+ethereal:sakura_tree sakuragi_tree.png
+ethereal:sakura_tree_top sakuragi_tree_top.png
+ethereal:sakura_wood sakuragi_wood.png
