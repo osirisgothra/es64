@@ -1,0 +1,63 @@
+File: override.txt.comments
+Date: Sun 30 May 2021 10:49:53 AM EDT
+  By:  osirisgothra (a big red balloon)
+
+Not sure if override.txt is allowed comments, so
+
+All items from the start to the middle (just before ethereal)
+were done by the TPC, and not me. They are just generic overrides
+that just about any texture pack should have.
+
+From ethereal on, are what i call "Guessing Game" entries, which
+allows me to test multiple filenames to try to figure out what they
+are. Many servers modify their mods, so its important to try to get
+this information on clientside, since the resources are coded once
+they're sent to the client, there is no other way of knowing the 
+name.
+
+Case in point: ethereal's crystal ingot is tagged:
+
+"ethereal:crystal_ingot"
+
+Now the reasonable person would think, since all mods do their naming
+in a non-intrusive, unique-as-possible naming convention that is
+supposed to be pretty much self-describing and has the purpose of no
+name clashing, you would guess the name to be:
+
+"ethereal_crystal_ingot.png"
+
+
+But no! this is not the case for this entry. It ended up being that
+the real name in the modpack is:
+
+"crystal_ingot.png"
+
+
+This is in no way unique, I did finally find it though and pulled that
+entry from the overrides and just named the file 'crystal_ingot.png'
+(hopefully no name clash happens but thats out of my power).
+
+The entries that remain are various in-progress tests for filename
+finding. My biggest worries right now are:
+
+- missing ethereal entries not in the original mod
+- signs_lib seems to ignore its textures
+- farming overrides some stuff
+- various "secret" mods who lack entries in the crafting helper mod
+- gui elements that i have no means of guessing their names 
+  (unless the author was nice enough to just do block_item_gui.png)
+
+Well there you go, a good explanation on why this texturepack may never
+be complete (for all servers that is, smaller servers will already be 100%)
+
+
+  
+
+
+
+
+
+
+
+
+

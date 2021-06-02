@@ -1,48 +1,21 @@
-# sorry, ive not done this yet, it needs done though muahaha
-#         _
-#        ###
-#      #######
-#     #########
-#     #||###||#
-#     #########  "A Baloon Never Lies"
-#      ##___##             - osirisgothra
-#       #####
-#        ###
-#         x
-#        /
-#       | 
-#       |
-#       \
-#        |
-#        \ 
-#         |
-#         /
-#        |
-#         |
-#         `-~
-# created with virtual manager
-
-
 bedrock:bedrock all bedrock.png
 bedrock2:bedrock all bedrock.png
 bedrock2:bedrock all bedrock.png
 bedrock3:bedrock all bedrock.png
-
 crafting:work_bench bottom crafting_work_bench_bottom.png
 crafting:work_bench sides crafting_work_bench_side.png
 crafting:work_bench top crafting_work_bench_top.png
-
 default:acacia_bush_leaves all default_acacia_leaves.png
 default:bush_leaves all default_leaves.png
-
 fossils:bone_block bottom fossils_bone_block_top.png
 fossils:bone_block top fossils_bone_block_top.png
-
 farming:farming_straw bottom farming_straw_top.png
 farming:farming_straw top farming_straw_top.png
-
 ethereal:sakura_leaves sakuragi_leaves.png
 ethereal:sakura_sapling sakuragi_sapling.png
 ethereal:sakura_tree sakuragi_tree.png
 ethereal:sakura_tree_top sakuragi_tree_top.png
 ethereal:sakura_wood sakuragi_wood.png
+default:sign_wall_wood sign_wall_wood.png
+signs:sign_wall_wood sign_wall_wood.png
+signs_lib:sign_wall_wood sign_wall_wood.png
