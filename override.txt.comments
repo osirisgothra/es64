@@ -4,12 +4,32 @@ Date: Sun 30 May 2021 10:49:53 AM EDT
 
 Not sure if override.txt is allowed comments, so
 
-All items from the start to the middle (just before ethereal)
+All items from the start to the middle (just before signs)
 were done by the TPC, and not me. They are just generic overrides
-that just about any texture pack should have.
+that just about any texture pack converted with TPC have.
 
-From ethereal on, are what i call "Guessing Game" entries, which
-allows me to test multiple filenames to try to figure out what they
+Guessing Game Entries
+Ordered in Date, when completed, their entries are moved here
+
+June 2021:
+<<No GGE's yet for this month>>
+
+May 2021: 
+Complete:
+# search for match: ended 
+#ethereal:sakura_leaves all sakuragi_leaves.png
+#ethereal:sakura_sapling all sakuragi_sapling.png
+#ethereal:sakura_tree west sakuragi_tree.png
+#ethereal:sakura_tree north sakuragi_tree.png
+#ethereal:sakura_tree east sakuragi_tree.png
+#ethereal:sakura_tree south sakuragi_tree.png
+#ethereal:sakura_tree_top top sakuragi_tree_top.png
+#ethereal:sakura_tree_top bottom sakuragi_tree_top.png
+#ethereal:sakura_wood sakuragi_wood.png
+
+About GGEs
+
+GGEs allow me to test multiple filenames to try to figure out what they
 are. Many servers modify their mods, so its important to try to get
 this information on clientside, since the resources are coded once
 they're sent to the client, there is no other way of knowing the 
@@ -40,12 +60,15 @@ entry from the overrides and just named the file 'crystal_ingot.png'
 The entries that remain are various in-progress tests for filename
 finding. My biggest worries right now are:
 
-- missing ethereal entries not in the original mod
-- signs_lib seems to ignore its textures
-- farming overrides some stuff
-- various "secret" mods who lack entries in the crafting helper mod
-- gui elements that i have no means of guessing their names 
-  (unless the author was nice enough to just do block_item_gui.png)
+
+- missing ethereal entries not in the original mod [90% found]
+- signs_lib seems to ignore its textures [100% ingame found, missing gui overrides]
+- farming overrides some stuff [99% found]
+- various "secret" mods who lack entries in the crafting helper mod [ta's elements and modified-by-server mods that are forked but not shared or are not easily located]
+- gui elements that i have no means of guessing their names (like above, signs_lib is a glutton for this)
+  (unless the author was nice enough to just do block_item_gui.png, some mods get overrides inside their code or whatnot, no way of doing that when the code is unshared!)
+  I have the suspicious feeling that some modders use UUID names for their textures or embedded-in-code textures (stored as text data, like a css 'data' block), this is
+  the ultimate way of hiding a texture, but it slows servers down alot especially when these are in choke points of the code (rit-mog stuff).
 
 Well there you go, a good explanation on why this texturepack may never
 be complete (for all servers that is, smaller servers will already be 100%)
