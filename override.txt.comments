@@ -27,6 +27,12 @@ Summary
     The override.txt is said to allow comments, however, I do wish to keep it clean
     of such entries, so all would-be comments are now here.
 
+    Formatting was going to be preformatted in override.txt.formatted, and then compiled
+    into a less-readable override.txt since the flawed override parser doesnt like extra whitespace, but
+    I have solved this problem by providing a syntax highlighter which will also reduce any future errors
+    to near zero. I urge you also use this, it works for nano (and soon vim). The vim parser is a bit more
+    involved so it is not quite ready yet (see EXTRAS section).
+
     All items from the start to the middle (just before signs)
     were done by the TPC, and not me. They are just generic overrides
     that just about any texture pack converted with TPC have.
@@ -53,7 +59,12 @@ Guessing Game Entries
         Forked version(s) correct previously mis-spelled words in filenames, and, perhaps, in code.
         Problem being that if you use my texture pack on older version the filenames are going to be incorrect
         I have put it in the todo list to add backport entries for the original xtraores mod filenames that were
-        incorrectly spelled.
+        incorrectly spelled (#2).
+
+        Update: wrote a script to deal with most of the mis-spelled filenames but have only used it on the ones I know
+        about, so at this time I am calling it the moron-backport, which will be noted under section 5 (#5-moron-backport).
+        This backport is only important for those using the version of xtraores with the mis-spelled words. New forks and
+        such will not be affected. The takeaway is that section #2 is now merged with this section.
 
 
      Signs Lib mod:
@@ -149,7 +160,7 @@ License
     minetest-game related textures are part of that aforementioned set.
 
 
-    Created with... vi
+    Created with... vi, Managed with... nano versions 2.4.0, 2.4.2, and, 4.9-104-gb18f1265
 
 Extras
 

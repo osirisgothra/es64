@@ -22,13 +22,21 @@ signs:sign_hanging all sign_wood_hanging.png
 default:sign_wall_wood back default_sign_wall_wood_back.png
 default:sign_wall_steel back default_sign_wall_wood_back.png
 signs:sign_yard back default_sign_wall_wood_back.png
-#2
-xtraores:unobtanium_pick all xtraores_unobtainium_pick.png
 #3-t
-paleotest:whip all whip.png
+paleotest:whip inventory whip.png
 #4-vt
 paleotest:dna_cultivator all terumet_crush_front.png
 paleotest:fossil_analyzer front terumet_vacoven_front.png
 paleotest:fossil_analyzer top terumet_vacoven_top.png
 paleotest:fossil_analyzer bottom terumet_vacoven_top.png
 paleotest:fossil_analyzer sides terumet_vacoven_sides.png
+#5-moron-backport
+xtraores:axe_unobtanium all xtraores_axe_unobtainium.png
+xtraores:drill_unobtanium all xtraores_drill_unobtainium.png
+xtraores:spear_unobtanium all xtraores_spear_unobtainium.png
+xtraores:stone_with_unobtanium all xtraores_stone_with_unobtainium.png
+xtraores:sword_unobtanium all xtraores_sword_unobtainium.png
+xtraores:unobtanium_brick all xtraores_unobtainium_brick.png
+xtraores:unobtanium_ingot all xtraores_unobtainium_ingot.png
+xtraores:unobtanium_lump all xtraores_unobtainium_lump.png
+xtraores:unobtanium_pick all xtraores_unobtainium_pick.png
