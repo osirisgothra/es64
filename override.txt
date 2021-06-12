@@ -1,3 +1,5 @@
+# override.txt (see override.txt.comments for details)
+
 bedrock:bedrock all bedrock.png
 bedrock2:bedrock all bedrock.png
 bedrock2:bedrock all bedrock.png
@@ -12,14 +14,21 @@ fossils:bone_block top fossils_bone_block_top.png
 farming:farming_straw bottom farming_straw_top.png
 farming:farming_straw top farming_straw_top.png
 underch:burning_mushroom inventory underch_burning_mushroom_inv.png
-
+#1
 default:sign_wall_steel all sign_metal.png
 signs:sign_yard all sign_wood_yard.png
 default:sign_wall_wood all sign_wood_onwall.png
 signs:sign_hanging all sign_wood_hanging.png
-# (see override.txt.comments)
-# todo: fix above so back can be used, unfortunately this means every dimension needs to be allocated
-#       (will take about an hour or so to test also)
 default:sign_wall_wood back default_sign_wall_wood_back.png
 default:sign_wall_steel back default_sign_wall_wood_back.png
 signs:sign_yard back default_sign_wall_wood_back.png
+#2
+xtraores:unobtanium_pick all xtraores_unobtainium_pick.png
+#3-t
+paleotest:whip all whip.png
+#4-vt
+paleotest:dna_cultivator all terumet_crush_front.png
+paleotest:fossil_analyzer front terumet_vacoven_front.png
+paleotest:fossil_analyzer top terumet_vacoven_top.png
+paleotest:fossil_analyzer bottom terumet_vacoven_top.png
+paleotest:fossil_analyzer sides terumet_vacoven_sides.png

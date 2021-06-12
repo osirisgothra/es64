@@ -1,86 +1,173 @@
-File: override.txt.comments
-Date: Sun 30 May 2021 10:49:53 AM EDT
-  By:  osirisgothra (a big red balloon)
+%markdown%
 
-Not sure if override.txt is allowed comments, so
+   File: override.txt.comments
+Created: Sun 30 May 2021 10:49:53 AM EDT
+     By: osirisgothra (a big red balloon)
 
-All items from the start to the middle (just before signs)
-were done by the TPC, and not me. They are just generic overrides
-that just about any texture pack converted with TPC have.
+Overview 
+
+    This is how the entire file is laid out:
+
+    File's Name/Creation/Author Signatures
+    Overview
+        [This section you are reading now]
+    Summary
+    Guessing Game Entries
+        June 2021
+            Entries
+        May 2021
+            Entries
+        About GGEs
+    Extras
+    Contact
+    License 
+
+Summary
+
+    The override.txt is said to allow comments, however, I do wish to keep it clean
+    of such entries, so all would-be comments are now here.
+
+    All items from the start to the middle (just before signs)
+    were done by the TPC, and not me. They are just generic overrides
+    that just about any texture pack converted with TPC have.
 
 Guessing Game Entries
-Ordered in Date, when completed, their entries are moved here
 
-June 2021:
-<<No GGE's yet for this month>>
+    Ordered in Date, when completed, their entries are moved here and documented if possible.
+    See the 'About "GGEs" section' if you want details on what this is. (I got tired of skipping
+    over it to add entries to the file :)
 
-May 2021: 
-Complete:
-# search for match: ended 
-#ethereal:sakura_leaves all sakuragi_leaves.png
-#ethereal:sakura_sapling all sakuragi_sapling.png
-#ethereal:sakura_tree west sakuragi_tree.png
-#ethereal:sakura_tree north sakuragi_tree.png
-#ethereal:sakura_tree east sakuragi_tree.png
-#ethereal:sakura_tree south sakuragi_tree.png
-#ethereal:sakura_tree_top top sakuragi_tree_top.png
-#ethereal:sakura_tree_top bottom sakuragi_tree_top.png
-#ethereal:sakura_wood sakuragi_wood.png
+    June 2021:
 
-About GGEs
+     Paleotest 
+        #3-t  using whip.png for paleotest's texture, soon to be renamed and discluded with ethereal's name once
+              I find the UTD entry.
+        #4-vt using (my) terumet textures from a couple machines as stand-ins for paleotest atm until I finish a
+         set of standard machine block templates and brush/patterns         
 
-GGEs allow me to test multiple filenames to try to figure out what they
-are. Many servers modify their mods, so its important to try to get
-this information on clientside, since the resources are coded once
-they're sent to the client, there is no other way of knowing the 
-name.
+     #3-t: temporary, to be changed/moved
+     #4-vt: very temporary, to be removed and replaced
 
-Case in point: ethereal's crystal ingot is tagged:
+     Xtraores mod:
 
-"ethereal:crystal_ingot"
-
-Now the reasonable person would think, since all mods do their naming
-in a non-intrusive, unique-as-possible naming convention that is
-supposed to be pretty much self-describing and has the purpose of no
-name clashing, you would guess the name to be:
-
-"ethereal_crystal_ingot.png"
+        Forked version(s) correct previously mis-spelled words in filenames, and, perhaps, in code.
+        Problem being that if you use my texture pack on older version the filenames are going to be incorrect
+        I have put it in the todo list to add backport entries for the original xtraores mod filenames that were
+        incorrectly spelled.
 
 
-But no! this is not the case for this entry. It ended up being that
-the real name in the modpack is:
+     Signs Lib mod:
+         
+         For lines concearning signs_lib mod, and servers that use, fork or override this mod:
 
-"crystal_ingot.png"
+         Guessed right for signs_lib, so they were added, but it comes with a pitfall:
 
-
-This is in no way unique, I did finally find it though and pulled that
-entry from the overrides and just named the file 'crystal_ingot.png'
-(hopefully no name clash happens but thats out of my power).
-
-The entries that remain are various in-progress tests for filename
-finding. My biggest worries right now are:
-
-
-- missing ethereal entries not in the original mod [90% found]
-- signs_lib seems to ignore its textures [100% ingame found, missing gui overrides]
-- farming overrides some stuff [99% found]
-- various "secret" mods who lack entries in the crafting helper mod [ta's elements and modified-by-server mods that are forked but not shared or are not easily located]
-- gui elements that i have no means of guessing their names (like above, signs_lib is a glutton for this)
-  (unless the author was nice enough to just do block_item_gui.png, some mods get overrides inside their code or whatnot, no way of doing that when the code is unshared!)
-  I have the suspicious feeling that some modders use UUID names for their textures or embedded-in-code textures (stored as text data, like a css 'data' block), this is
-  the ultimate way of hiding a texture, but it slows servers down alot especially when these are in choke points of the code (rit-mog stuff).
-
-Well there you go, a good explanation on why this texturepack may never
-be complete (for all servers that is, smaller servers will already be 100%)
-
-
-  
+         problem: signs are incorrect on back face
+         fix: add individual face definitions, unfortunately this means every dimension needs to be allocated and im very swamped
+               (will take about an hour or so to test also)
+               note: overrides.txt is a common mistaken filename, this is indeed the correct spelling, override.txt (expect it to change as it doesnt quite make sense since it affects more than just one override, maybe in a fork)
 
 
 
+    May 2021: 
+
+     Ethereal (forked?) mod:
+
+         Ethereal, ongoing mess of filenames and changes by other servers using their own forked ethereal mods
+         which seems to be forked by more than one author, so yes, a mess, a log of some of the completed
+         GGE's which were done in may:
+
+            Complete:
+            # search for match: ended 
+            #ethereal:sakura_leaves all sakuragi_leaves.png
+            #ethereal:sakura_sapling all sakuragi_sapling.png
+            #ethereal:sakura_tree west sakuragi_tree.png
+            #ethereal:sakura_tree north sakuragi_tree.png
+            #ethereal:sakura_tree east sakuragi_tree.png
+            #ethereal:sakura_tree south sakuragi_tree.png
+            #ethereal:sakura_tree_top top sakuragi_tree_top.png
+            #ethereal:sakura_tree_top bottom sakuragi_tree_top.png
+            #ethereal:sakura_wood sakuragi_wood.png
+
+    About "GGEs"
+
+        GGEs (Guessing Game Entries) allow me to test multiple filenames to try to figure out what they
+        are. Many servers modify their mods, so its important to try to get
+        this information on clientside, since the resources are coded once
+        they're sent to the client, there is no other way of knowing the 
+        name.
+
+        Case in point: ethereal's crystal ingot is tagged:
+
+        "ethereal:crystal_ingot"
+
+        Now the reasonable person would think, since all mods do their naming
+        in a non-intrusive, unique-as-possible naming convention that is
+        supposed to be pretty much self-describing and has the purpose of no
+        name clashing, you would guess the name to be:
+
+        "ethereal_crystal_ingot.png"
 
 
+        But no! this is not the case for this entry. It ended up being that
+        the real name in the modpack is:
+
+        "crystal_ingot.png"
 
 
+        This is in no way unique, I did finally find it though and pulled that
+        entry from the overrides and just named the file 'crystal_ingot.png'
+        (hopefully no name clash happens but thats out of my power).
+
+        The entries that remain are various in-progress tests for filename
+        finding. My biggest worries right now are:
 
 
+        - missing ethereal entries not in the original mod [90% found]
+        - signs_lib seems to ignore its textures [100% ingame found, missing gui overrides]
+        - farming overrides some stuff [99% found]
+        - various "secret" mods who lack entries in the crafting helper mod [ta's elements and modified-by-server mods that are forked but not shared or are not easily located]
+        - gui elements that i have no means of guessing their names (like above, signs_lib is a glutton for this)
+          (unless the author was nice enough to just do block_item_gui.png, some mods get overrides inside their code or whatnot, no way of doing that when the code is unshared!)
+          I have the suspicious feeling that some modders use UUID names for their textures or embedded-in-code textures (stored as text data, like a css 'data' block), this is
+          the ultimate way of hiding a texture, but it slows servers down alot especially when these are in choke points of the code (rit-mog stuff).
+
+        Well there you go, a good explanation on why this texturepack may never
+        be complete (for all servers that is, smaller servers will already be 100%)
+
+
+Contact
+
+    You may contact me via my github page: https://www.github.com/osirisgothra
+
+License
+
+    All content in the modpack is licensed under either 1) original owner's license if work is not mine 2) the free-est license (usually public domain or WTFL, if this is not
+    allowed in your area, then share-alike or the GNU LGPL 3 if a strict license is required by your area) 3) items that are under multiple authors will have their work noted
+    somewhere in the TP description's README.md, what that licensing is for those/that file/s. For 90% of the work which is mine, will fall under #2. Please note I am in the
+    process of removing anything I suspect is copyrighted and could use help on this. Please post any desired removals to my github page. Items in the default_ catagory or any
+    minetest-game related textures are part of that aforementioned set.
+
+
+    Created with... vi
+
+Extras
+
+    nano highlighter: override_txt.nanorc
+
+        There is now a override.nanorc file included, it is a highlighter for the less highlight-sensible nano (v4.9+, also works on 2.4.2, untested on others)
+        There is no highlighter for the vi or vim because the vim highlighting definition has yet to be finished, and is a bit more complex and mindful
+        however is not nearly as fast as nano at loading/startup (try starting 150 vims VS. 150 nanos and see which is faster). To use it, you must install it,
+        somewhere, and in your ~/.nanorc file put:
+
+        include "/my/path/to/override_txt.nanorc"
+
+        The file is in the main texture directory with this file.
+
+    upsampler.pl
+    downsampler.pl
+
+        These have been removed until they are finished               (too destructive to keep in working tree)     
+        
+    
+vi: ft=markdown:noet:fdm=indent:fdl=2:fdo=all:fcl=all:bs=2:ts=4:sw=4:ls=2

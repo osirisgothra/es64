@@ -1,0 +1,59 @@
+# nanorc
+# override_txt.nanorc
+# syntax for override.txt (minetest texture pack file)
+# by gabriel t. sharp (osirisgothra@hotmail.com)
+# cs21k compliance: non-compliant (required = no, not an active code base)
+# note: any highlighting that has a background other than default (usually in the form of ",color#" instead of "color#" are
+#       used to indicate to the user that an error may have been found, or just bad formatting (either way things that should
+#       be fixed!) If errors exist, there is a large chance override.txt will not work and is
+#       explained here (in same order as given below, starting at line 38):
+#         #1    first field did not contain any mod specifier (even default items have a 'default:' in front of them
+#         #2    lines that dont end with .png (overridden later by comments, if it was one)
+#         #3    lines with preceeding whitespace, forbidden (probably breaks overrides, if it doesnt then your lucky, but NOT advised at all!)
+#         #4    ditto, appended whitespace, forbidden (doesnt usually break overrides, but is not advised)
+#         #5    a set of 2 or more whitespaces in a row, forbidden (WILL break overrides!!! dont do it!)
+
+# syntax/header
+syntax "override" "override.txt$"
+header "override.txt$"
+
+# standard minetest texture filenames (SMTFs)
+color 140 "\<(bubble.png|bubble_gone.png|crack_anylength.png|crosshair.png|crosshair_color|object_crosshair.png|crosshair_color|halo.png|heart.png|heart_gone.png|minimap_mask_round.png|minimap_mask_square.png|minimap_overlay_round.png|minimap_overlay_square.png|no_texture_airlike.png|object_marker_red.png|player_marker.png|player.png|player_back.png|progress_bar.png|progress_bar_bg.png|moon.png|moon_tonemap.png|sun.png|sun_tonemap.png|sunrisebg.png|smoke_puff.png|unknown_item.png|unknown_node.png|unknown_object.png|wieldhand.png|menu_bg.png|menu_header.png|no_screenshot.png|server_flags_creative.png|server_flags_damage.png|server_flags_favorite.png|server_flags_pvp.png)\>"
+
+# SMTFs for android (back)port
+color 150 "\<(down_arrow.png|left_arrow.png|right_arrow.png|up_arrow.png|drop_btn.png|fast_btn.png|fly_btn.png|jump_btn.png|noclip_btn.png|camera_btn.png|chat_btn.png|inventory_btn.png|rangeview_btn.png|debug_btn.png|gear_icon.png|rare_controls.png)\>"
+
+# override.txt face specifications
+color 180 "\<(left|right|front|back|top|bottom|sides|all|special[1-6]|inventory|wield)\>"
+
+# detect filename
+color 200 "\S+\.png$"
+
+# detect mod:name
+color 120 "^[^:]+"
+color 80 ":\S+"
+color 237 ":"
+color 237 "\.png$"
+color 27 "png$"
+
+# next 5 lines detect and show any errors that may be subtle
+color ,red "^[^:]+\s"
+color ,red "\s[^\.][^p][^n][^g]$"
+color ,blue "^\s+"
+color ,magenta "\s+$"
+color ,yellow "\s{2,}"
+color ,red "\S+:\S+\.png$"
+
+# next 2 lines detect comments embedded in the document, or use of it's own filename (which is forbidden)
+color 234 "^\s*#.*"
+color ,234 "override.txt"
+
+# reserved special words
+color magenta "\<(flowingliquid|allfaces_optional|glasslike_framed|glasslike_framed_optional|plantlike_rooted)\>"
+
+# reserved words
+color 130 "\<(fancy|opaque|simple)\>"
+color 134 "\<(tiles|special_tiles)\>"
+
+
+# vim: ft=markdown:et:sw=4:ts=4:bs=2:ls=2:fdm=marker:fmr=#:fdl=1:fen:fcl=all:fdo=all 
