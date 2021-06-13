@@ -1,16 +1,19 @@
 %markdown%
+This file is included here for forkers to have a reference on-hand, long live es64?
 
-    Title: Minetest Texture Pack Reference
-     Link: https://raw.githubusercontent.com/minetest/minetest/master/doc/texture_packs.txt
-    Saved: Sat 05 Jun 2021 02:33:28 PM EDT
-   Format: Markdown (mime:text/markdown)
- Encoding: Plain Text (mime:text/plain), UTF-8, NBOM (No Byte Order Mark)
+EarthSiege64:
+    <https://github.com/osirisgothra/es64>
+
+        Title: Minetest Texture Pack Reference
+Original Link: https://raw.githubusercontent.com/minetest/minetest/master/doc/texture_packs.txt
+        Saved: Sat 05 Jun 2021 02:33:28 PM EDT
+       Format: Markdown (mime:text/markdown)
+     Encoding: Plain Text (mime:text/plain), UTF-8, NBOM (No Byte Order Mark)
 
 Minetest Texture Pack Reference
 ===============================
 
-Texture packs allow you to replace textures provided by a mod with your own
-textures.
+Texture packs allow you to replace textures provided by a mod with your own textures.
 
 Texture pack directory structure
 --------------------------------

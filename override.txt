@@ -24,6 +24,7 @@ default:sign_wall_steel back default_sign_wall_wood_back.png
 signs:sign_yard back default_sign_wall_wood_back.png
 #3-t
 paleotest:whip inventory whip.png
+paleotest:whip wield whip.png
 #4-vt
 paleotest:dna_cultivator all terumet_crush_front.png
 paleotest:fossil_analyzer front terumet_vacoven_front.png

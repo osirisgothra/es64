@@ -1,4 +1,3 @@
-animated
 baked_clay_orange.png
 baked_clay_red.png
 bamboo_floor.png
