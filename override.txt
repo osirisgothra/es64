@@ -41,3 +41,13 @@ xtraores:unobtanium_brick all xtraores_unobtainium_brick.png
 xtraores:unobtanium_ingot all xtraores_unobtainium_ingot.png
 xtraores:unobtanium_lump all xtraores_unobtainium_lump.png
 xtraores:unobtanium_pick all xtraores_unobtainium_pick.png
+#6
+wrench:wrench wield technic_wrench.png
+wrench:wrench inventory technic_wrench.png
+elements:fishing_rod wield fishing_rod_wield.png
+elements:fishing_rod inventory fishing_rod.png
+default:binoculars inventory binoculars_binoculars.png
+default:binoculars wield binoculars_binoculars.png
+#7
+technic:water_jumbo_can inventory technic_water_jumbo_can.png
+technic:water_jumbo_can wield technic_water_jumbo_can.png
