@@ -16,6 +16,29 @@ For Default Game AND Modded Servers or Modded Singleplayer!
     To date, approximately 653 hours have been spent in the various
     programs I use to devise these textures.
 
+Important Notes for the Future:
+
+    The overrides.txt has all it's comment footnotes in a file called 'overrides.txt.comments'
+    to keep it neat and tidy. This file will be moving into the 'extras' subdirectory by the
+    Fall of 2021. 
+
+    Due to github's semi-annoying directory truncation, I may have to split things (back) up into
+    directories but I havent done this because minetest loads the texture pack MUCH slower when
+    it is split up like that (It can take up to an extra 3-5 minutes on some machines!). I havent
+    decided on a workaround for this but a few are listed here:
+
+        Installer (not desirable, just another annoying step for the user)
+        Archive textures (again, another annoying step for the user, plus cant see it on github)
+        Split into Dirs by mod (tried this, slows things way down)
+        Move things into dirs by file count (kinda cumbersome)
+        Move things into dirs by name (slow AND cumbersome)
+        Link to an online installer (security and cross-platform issues here)
+
+        Any ideas are welcome. The last entry might be employed just as an added convienence 
+        in addition to another measure, at this time, you will have to clone or download the
+        repository to see all the files in it. I am going to also try adding a list of supported
+        mods as soon as I get around to it (as I note later in this and other documentation).
+
 Programs Used To Produce This Pack:
 
     Gimp 2.8, 2.10      Photoshop CS6       Adobe Draw, Sketchbook

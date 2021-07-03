@@ -27,6 +27,10 @@ Summary
     The override.txt is said to allow comments, however, I do wish to keep it clean
     of such entries, so all would-be comments are now here.
 
+    Future note, this document will probably be moved to the extras subdirectory in the
+    fall, if it has not already. A note on this will be put into the README.md file.
+    
+
     Formatting was going to be preformatted in override.txt.formatted, and then compiled
     into a less-readable override.txt since the flawed override parser doesnt like extra whitespace, but
     I have solved this problem by providing a syntax highlighter which will also reduce any future errors
@@ -43,7 +47,12 @@ Guessing Game Entries
     See the 'About "GGEs" section' if you want details on what this is. (I got tired of skipping
     over it to add entries to the file :)
 
-    June 2021:
+    June 2021 (last half):
+        #8  the "atm" and "abyssaldeals" mod on tunneler's abyss may be overridden in ways i dont know
+        about, so I am taking no chances and explicitly naming the block's faces manually (and since
+        I dont seem to have any chance of actually seeing abysaldeals/textures anyway)
+
+    June 2021 (first half):
 
      Paleotest 
         #3-t  using whip.png for paleotest's texture, soon to be renamed and discluded with ethereal's name once

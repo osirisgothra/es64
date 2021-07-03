@@ -51,3 +51,30 @@ default:binoculars wield binoculars_binoculars.png
 #7
 technic:water_jumbo_can inventory technic_water_jumbo_can.png
 technic:water_jumbo_can wield technic_water_jumbo_can.png
+#8
+atm:atm sides atm_atm.png
+atm:atm2 sides atm_atm2.png
+atm:atm3 sides atm_atm3.png
+atm:wtt sides atm_wtt.png
+atm:atm front atm_atm_front.png
+atm:atm2 front atm_atm2_front.png
+atm:atm3 front atm_atm3_front.png
+atm:wtt front atm_wtt_front.png
+atm:atm top atm_atm_top.png
+atm:atm2 top atm_atm2_top.png
+atm:atm3 top atm_atm3_top.png
+atm:wtt top atm_wtt_top.png
+abyssaldeals:auction_house_block sides abyssaldeals_auction_house_block.png
+abyssaldeals:auction_house_block front abyssaldeals_auction_house_block_front.png
+abyssaldeals:auction_house_block top abyssaldeals_auction_house_block_top.png
+#9-missing
+moreblocks:blue_tinted_glass all blue_tinted_glass.png
+moreblocks:cyan_tinted_glass all cyan_tinted_glass.png
+moreblocks:green_tinted_glass all green_tinted_glass.png
+moreblocks:gray_tinted_glass all gray_tinted_glass.png
+moreblocks:magenta_tinted_glass all magenta_tinted_glass.png
+moreblocks:red_tinted_glass all red_tinted_glass.png
+moreblocks:white_tinted_glass all white_tinted_glass.png
+moreblocks:yellow_tinted_glass all yellow_tinted_glass.png
+
+
