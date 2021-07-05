@@ -1,0 +1,2 @@
+
+return {["blacklist_items"] = {}, ["whitelist_counter"] = 1, ["group_filter_blacklist"] = "", ["name_filter_whitelist"] = "methane, ethonal, coal block,crude oil", ["blacklist_counter"] = 1, ["whitelist_items"] = {"rhotator:screwdriver_multi"}, ["name_filter_blacklist"] = "", ["mod_filter_blacklist"] = "", ["mod_filter_whitelist"] = "digtron", ["group_filter_whitelist"] = ""}

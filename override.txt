@@ -76,5 +76,62 @@ moreblocks:magenta_tinted_glass all magenta_tinted_glass.png
 moreblocks:red_tinted_glass all red_tinted_glass.png
 moreblocks:white_tinted_glass all white_tinted_glass.png
 moreblocks:yellow_tinted_glass all yellow_tinted_glass.png
+#10-coral-aussie-etc
+coral:blue_block all default_coral_blue.png
+coral:pink_block all default_coral_pink.png
+coral:red_block all default_coral_red.png
+coral:green_block all default_coral_green.png
+coral:brown_block all default_coral_brown.png
+coral:orange_block all default_coral_orange.png
+coral:yellow_block all default_coral_yellow.png
+coral:rainbow_block all default_coral_rainbow.png
+coral:dead_block all default_coral_skeleton.png
+# 
+coral:green_coral all default_coral_green.png
+coral:red_coral all default_coral_red.png
+coral:blue_coral all default_coral_blue.png
+coral:orange_coral all default_coral_orange.png
+coral:brown_coral all default_coral_brown.png
+coral:pink_coral all default_coral_pink.png
+#11 toomanysponges converge!
+#11-a elements
+#elements:sponge wet sponge_wet.png
+#elements:sponge dry sponge_dry.png
+elements:sponge inventory sponge_dry_item.png
+elements:sponge all sponge_dry.png
+elements:sponge wield sponge_dry.png
+elements:sponge_wet inventory sponge_wet_item.png
+elements:sponge_wet all sponge_wet.png
+elements:sponge_wet wield sponge_wet_wield.png
+#elements:sponge_dry inventory sponge_dry_item.png
+#elements:sponge_dry all sponge_dry.png
+#elements:sponge_dry wield sponge_dry_wield.png
+#11-b defaultgame
+default:sponge_wet inventory sponge_wet_item.png
+default:sponge_wet all sponge_wet.png
+cdefault:sponge_wet wield sponge_wet_wield.png
+#default:sponge_dry inventory sponge_dry_item.png
+#default:sponge_dry all sponge_dry.png
+#default:sponge_dry wield sponge_dry_wield.png
+default:sponge inventory sponge_dry_item.png
+default:sponge all sponge_dry.png
+default:sponge wield sponge_dry_wield.png
+#11-c spongemod squarepix
+sponge:sponge_wet inventory sponge_wet_item.png
+sponge:sponge_wet all sponge_wet.png
+sponge:sponge_wet wield sponge_wet_wield.png
+#sponge:sponge_dry inventory sponge_dry_item.png
+#sponge:sponge_dry all sponge_dry.png
+#sponge:sponge_dry wield sponge_dry_wield.png
+sponge:sponge inventory sponge_dry_item.png
+sponge:sponge all sponge_dry.png
+sponge:sponge wield sponge_dry_wield.png
+
+elements:night_vision_goggles inventory nightvision_goggles.png
+elements:super_vision_goggles inventory supervision_goggles.png
+elements:night_vision_goggles wield nightvision_goggles.png
+elements:super_vision_goggles wield supervision_goggles.png
+#
+night_vision_goggles:night_vision_googles all nightvision_goggles.png
 
 
